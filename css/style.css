@@ -14,6 +14,22 @@
     box-sizing: border-box
 }
 
+.extra{
+    background: pink;
+    padding: 20Px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.extra:hover{
+background-color: rgb(237, 113, 155);
+cursor: pointer;
+
+
+}
+
+
 html {
     scroll-behavior: smooth
 }
@@ -339,6 +355,10 @@ h3 {
     background: #fff;
     border: 1px solid var(--line)
 }
+.feature-card:hover{
+    padding: 5px;
+    animation-delay: 2s;
+}
 
 .feature-card img {
     width: 100%;
@@ -371,7 +391,13 @@ h3 {
 }
 
 .department-preview {
-    border-top: 1px solid var(--line)
+    border-top: 1px solid var(--line) ;
+     padding: 10px;
+}
+.department-preview:hover{
+    background-color: pink;
+    
+   
 }
 
 .department-preview a {
